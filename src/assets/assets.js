@@ -108,6 +108,7 @@ export const products = [
         date: 1716634345448,
         bestseller: true
     },
+    
     {
         _id: "aaaab",
         name: "Men Round Neck Pure Cotton T-shirt",
@@ -214,7 +215,7 @@ export const products = [
         subCategory: "BottomWear",
         sizes: ["S", "L", "XL"],
         date: 1716622235448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaak",
@@ -226,7 +227,7 @@ export const products = [
         subCategory: "TopWear",
         sizes: ["S", "M", "L"],
         date: 1716623345448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaal",
@@ -238,7 +239,7 @@ export const products = [
         subCategory: "TopWear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716624445448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaam",
@@ -719,5 +720,6 @@ export const products = [
         date: 1716668445448,
         bestseller: false
     }
+    
 
 ]
