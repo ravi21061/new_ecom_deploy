@@ -46,6 +46,11 @@ const ShopContextProvider = (props) => {
 
     const saveToCart = (itemId,size)=> {
         // keep it as state
+         if(!size){
+            toast.error("Please Select Size");
+            return;
+        }
+
         console.log(size,"size")
         setCartItems3((state)=> {
                 console.log(state,'state')
